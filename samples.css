@@ -1,0 +1,49 @@
+.flex-container {
+                    display: flex;
+                    flex-wrap:wrap;
+                    width: 60%;
+                    
+                  }
+.flex-container > div {                   
+                    margin: 10px;
+                    padding: 25px 80px;
+                    font-size: 20px;
+                    color: white;
+                    width: 50%;
+                  }
+    
+.Tomato{
+                    background-color: tomato;
+}
+.orange{
+                    background-color: orange;
+}
+.DogerBlue{
+                    background-color: dodgerblue;
+}
+.MediumSeaGreen{
+                    background-color: mediumseagreen;
+}
+.Gray{
+                    background-color: gray;
+                   
+}
+.SlateBlue{
+                    background-color: slateblue;
+
+}
+.Violet{
+                    background-color: violet;
+}
+.LightGray{
+                    background-color: LightGray;
+}
+
+.button{
+                    background-color: #04AA6D;
+                    border-radius: 5px;
+                    font-size: 17px;
+                    padding: 6px 18px;
+                    color: white;
+
+}

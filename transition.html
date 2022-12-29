@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>CSS transition</title>
+
+<style>
+html,body{
+                    margin: 0;
+                    padding: 0;
+}
+
+*,
+*::before,
+*::after{
+
+                    box-sizing: border-box;
+                    
+}
+.box{    background-color: blue;
+         height: 200px;
+         width: 200px;
+         border: 5px solid yellow;
+
+}
+.box:hover{
+                    transition: width 2s,height 2s linear;
+                    background-color: pink;
+                    transition-delay: 0s;
+
+                    height: 200px;
+                 width: 300px;
+                    
+}
+.box:nth-child(3){
+                    margin: auto;
+}
+
+
+
+
+</style>
+</head>
+<body>              <div style="display: flex;">
+                    <div class="box">1</div>
+                    <div class="box">2</div>
+                    <div class="box">3</div>
+                    <div class="box">3</div>
+                    
+</div>
+</body>
+</html>
