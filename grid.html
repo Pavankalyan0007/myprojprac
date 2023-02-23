@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    <meta charset="UTF-8">
+                    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>CSS grid</title>
+<style>
+     html,body{
+                    height: 100vh;
+                    margin: 0;
+                    font-family: 'Noto Sans';
+     }
+*,
+*::after,
+*::before{
+                    box-sizing: border-box;
+}
+.d-flex{
+                    display: flex;
+                    flex-direction: row-reverse;
+}
+.d-grid{
+                    display: grid;
+                    grid-template-columns: repeat(5, 100px);
+                    grid-template-rows: 100px 100px;
+}
+.border{
+                    border: 2px solid red;
+}
+.flex-1{
+                    flex-grow: 1;
+}
+</style>
+</head>
+<body>
+      <div class="d-grid">
+                    <span class="border">span1</span>
+                    <span class="border">span2</span>
+                    <div class="border">1</div>
+                    <div class="border">2</div>
+                    <span class="border">span1</span>
+                    <span class="border">span2</span>
+                    <div class="border">1</div>
+                    <div class="border">2</div>
+                    <span class="border">span2</span>
+                    <div class="border">1</div>
+
+      </div>
+                    
+</body>
+</html>
